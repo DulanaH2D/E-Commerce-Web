@@ -43,6 +43,31 @@ p{
     margin: 40px 0px;
 }
 
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    cursor:pointer;
+    border:none;
+    outline: none;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+body{
+    width: 100%;
+}
+
 ul{
     list-style: none;
 }
@@ -292,4 +317,39 @@ ul{
     position: absolute;
     bottom: 20px;
     right: 10px;
+}
+
+
+/* Banner 2 */
+#banner2{
+    background-image: url("img2/banner/b2.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner2 h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner2 h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner2 h2 span{
+    color: #ef3636;
+}
+
+#banner2 button:hover{
+    background-color: #008178;
+    color: #fff;
 }
